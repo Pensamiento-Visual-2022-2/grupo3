@@ -1,0 +1,39 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+
+  button {
+    font-size: 50 px;
+    cursor: pointer
+    position: fixed;
+    position: absolute;
+    right: 0
+    top: 0
+  }
+  
+}
+
+div{
+  /* foto_principal_cabeza */
+  position: absolute;
+  width: 1190px;
+  height: 915px;
+  left: 392px;
+  top: 0px;
+
+  background: foto_principal_cabeza.png;
+}
+
+.fotoayuda {
+  /* gif ayuda */
+  padding: 50px; 
+  
+  margin: 10px; 
+  border: 2px solid black; 
+  float: right; 
+  width: 200px; 
+}
+p {
+  font: 150% calibri;
+}

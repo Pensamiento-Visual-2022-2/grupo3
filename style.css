@@ -1,290 +1,82 @@
-
-html, body {
-  height: 100%;
-  width: 100%;
-  background-color: #000000;
-
-  
-  div{
-  /* foto_principal_cabeza */
-      position: absolute;
-      width: 1190px;
-      height: 915px;
-      left: 392px;
-      top: 0px;
-
-      background: foto_principal_cabeza.png; #000000
-    }
-
-  .fotoayuda {
-  /* gif ayuda */
-    padding: 50px; 
-    margin: 10px; 
-    border: 2px solid 
-; 
-    float: right; 
-    width: 200px; 
-  }
-  p {
-    font: 150% calibri;
-  }
+*{
+    border:0;
+    padding: 0;
+    margin: 0;
 }
-
-.boton {
-  border: 1px solid#ffff;
-  padding: 10px;
-  background-color: #ffffff;
-  color: #65646d;
-  text-decoration: none;
-  text-transform: uppercase;
-  border-radius: 50px;
-  top: 0px;
-  width: 0px;
-  }
-
-.boton:hover{
-  color: #000000;
-  background-color: #ffc299;
-}
-
- 
-
- 
+/*Barra de navegación*/
 .barranavegacion{
-  display: flex;
-  margin-right: 10px;
-  top: 0;
-}
-
-.logo {
-  margin-left: 30px;
-}
-
-.logo a {
-  text-decoration: none;
-  color: #fff;
-  text-transform: uppercase;
-  font-size: 20px;
-}
-
-.barranavegacion a {
-  display: block;
-  padding: 20px 20px;
-  color: #fff;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 20px;
-}
-.barranavegacion a:hover {
-  background: #3f3f3f;
-}
-.header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-}
-
-.header {
-  height: 90vh !important;
-  background: url(img_enf/inicio.png) no-repeat center;
-  
-  background-size: cover;
-  
-}
-/*
-.logo {
-    margin-left: 30px;
-}
-
-.logo a {
-    text-decoration: none;
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 20px;
-}
-.header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.header {
-    height: 60vh !important;
-    background: url(Imágenes/principal.png) no-repeat center;
-    
-    background-size: cover;
-}*/
-.btn {
-    display: inline-block;
-    margin-top: 15px;
-    padding: 10px 40px;
-    border: 2px solid #ffc299;
-    color: #fff;
-    text-decoration: none;
-    background: #f8b486;
-}
-
-.btn:hover {
-    background: none;
-    
-}
-
-.btn-home {
-    display: flex;
-}
-
-.btn-home a {
-    margin: 0 10px;
-}
-.title {
-    margin-bottom: 40px;
-    font-size: 60px;
-    font-weight: 600;
-    text-transform: uppercase;
-    color: #fff;
-}
-.head {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 60px;
-    background: #171717;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 100;
-}
-.navbar {
     display: flex;
     margin-right: 10px;
+    top: 0;
 }
-
-.logo {
-    margin-left: 30px;
-}
-
-.logo a {
-    text-decoration: none;
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 20px;
-}
-
-.navbar a {
+.barranavegacion a {
     display: block;
     padding: 20px 20px;
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 20px;
-}
-
-.navbar a:hover {
+  }
+  .barranavegacion a:hover {
     background: #3f3f3f;
+  }
+
+/*Definir tipografía*/
+div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-family: big john;
+    width: 100%;
+    height: 100vh;
+}
+/*Títulos en cajita*/
+h2{
+    font: size 60px;
+    background: #eee;
+    padding: 8px 24px;
+    border-radius: 16 px;
+}
+/*Portada*/
+div:nth-child(1) {
+    background-color: #000000;
+    background-image: ;
+    background-size: cover;
 }
 
-.trastorno:hover{
-  cursor:pointer;
-  transform: scale(1.1);
-  box-shadow: 4px 4px 8px 0 rgb(123 120 120);
-  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-}   
-
-.ventana1{
-  background: #83C5BE;
-  position: absolute;
-  width: 36%;
-  color: white;
-  font-size: 20px;
-  text-align: center;
-  border-radius: 2px;
-  left: 58%;
-  padding: 10px;
-  min-height: 10px;
-  max-height: 27px;
-  top: 43%;
-  display: none
+/*Portada*/
+div:nth-child(2) {
+    background-color: #000000;
+    background-image: ;
+    background-size: cover;
 }
 
-.ventana2{
-  background: #83C5BE;
-  position: absolute;
-  width: 36%;
-  color: white;
-  font-size: 20px;
-  text-align: center;
-  border-radius: 2px;
-  left: 58%;
-  padding: 10px;
-  min-height: 10px;
-  max-height: 27px;
-  top: 43%;
-  display: none
+/*Portada*/
+div:nth-child(3) {
+    background-color: #000000; 
+    height: 400 px;
+    background-image: ;
+    background-size: cover;
 }
 
-.ventana3{
-  background: #83C5BE;
-  position: absolute;
-  width: 36%;
-  color: white;
-  font-size: 20px;
-  text-align: center;
-  border-radius: 2px;
-  left: 58%;
-  padding: 10px;
-  min-height: 10px;
-  max-height: 27px;
-  top: 43%;
-  display: none
+/*Qué es salud mental*/
+div:nth-child(4){
+    background-color: #000000;
+
 }
 
-.ventana4{
-  background: #83C5BE;
-  position: absolute;
-  width: 36%;
-  color: white;
-  font-size: 20px;
-  text-align: center;
-  border-radius: 2px;
-  left: 58%;
-  padding: 10px;
-  min-height: 10px;
-  max-height: 27px;
-  top: 43%;
-  display: none
+/*Trastornos*/
+div:nth-child(5){
+    background-color: #000000;
 }
 
-.ventana5{
-  background: #83C5BE;
-  position: absolute;
-  width: 36%;
-  color: white;
-  font-size: 20px;
-  text-align: center;
-  border-radius: 2px;
-  left: 58%;
-  padding: 10px;
-  min-height: 10px;
-  max-height: 27px;
-  top: 43%;
-  display: none
+/*Causas*/
+div:nth-child(6){
+    background-color: #000000;
 }
 
-.ventana6{
-  background: #83C5BE;
-  position: absolute;
-  width: 36%;
-  color: white;
-  font-size: 20px;
-  text-align: center;
-  border-radius: 2px;
-  left: 58%;
-  padding: 10px;
-  min-height: 10px;
-  max-height: 27px;
-  top: 43%;
-  display: none
+/*Recursos de utilidad*/
+div:nth-child(7){
+    background-color: #000000;
 }
-

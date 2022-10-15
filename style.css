@@ -40,9 +40,13 @@ h2{
 }
 /*Portada*/
 div:nth-child(1) {
-    background-color: #000000;
-    background-image: ;
-    background-size: cover;
+    position: absolute;
+    width: : 1190 px;
+    height: 915 px;
+    left: 392 px;
+    top: 0 px;
+    background: foto_principal_cabeza.png;
+
 }
 
 /*Portada*/

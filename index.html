@@ -10,19 +10,27 @@
 
 </head>
 
+<!--Cuerpo separado en divs para cada página-->
 <body>
-    <!--Cuerpo separado en divs para cada página-->
+  <header>
+    <a href="#" class="logo"> Salud Mental </a>
+    <ul>
+      <li><a href="#">Inicio</a></li>
+      <li><a href="#">Aprende más</a></li>
+      <li><a href="#">Causas</a></li>
+      <li><a href="#">¿Necesitas ayuda?</a></li>
+    </ul>
+  </header>
+  <section class="banner"></section>
+  <script type="text/javascript"> 
+    window.addEventListener("scroll", function(){
+      var header = document.querySelector("header");
+      header.classList.toggle("sticky", window.scrollY > 0);
+    })
+  </script>
+  
+  
     <div id="parallax">
-        <div class="head">
-            <figure class="map">
-                <img src="Imágenes/logo.png" height="60px" width="100%" alt="mapa">
-            </figure>
-            <nav class="barranavegacion" style="color: white ; font-family: Verdana">
-                <a href="index.html">Inicio</a>
-                <a href="#">¿Necesitas ayuda?</a>
-            </nav>
-        </div>
-
         <header class="content header">
             <h3 style="
             font-family: Verdana; position:absolute;text-align:center" class="title">¿Tu salud mental está <br> en <a style="color: #e29578">riesgo</a>? </h3>
@@ -209,9 +217,24 @@
     </div>
 
 
+
+
+
+
+
     <div>
         <h2>Causas</h2>
     </div>
+
+
+
+
+
+
+
+
+
+
 
 
     <div>

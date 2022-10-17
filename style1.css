@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
 *{
   border:0;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 /*fondo negro*/
 html, body {
@@ -91,7 +94,7 @@ div {
 /*Portada*/
 div:nth-child(1) {
   position: absolute;
-  width: : 1190 px;
+  width: 1190 px;
   height: 915 px;
   left: 392 px;
   top: 0 px;
@@ -173,6 +176,7 @@ div:nth-child(6){
   background-color: #000000;
   background-image:url("fondo_causas1.png");
 }
+
 /*Causas2*/
 div:nth-child(7){
     background-color: #000000;

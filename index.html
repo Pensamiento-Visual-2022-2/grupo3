@@ -16,7 +16,7 @@
 <body>
   <!--Barra de navegación-->
   <header>
-    <a href="#parallax" class="logo"> Salud Mental</a>
+    <a href="#inicio" class="logo"> Salud Mental</a>
     <ul>
       <li><a href="#que_es">¿Qué es?</a></li>
       <li><a href="#trastornos">Trastornos</a></li>
@@ -35,7 +35,7 @@
     <!--Cuerpo separado en divs para cada página-->
     
     <!--Portada-->
-    <div id="parallax">
+    <div id="inicio">
       <h3 style="
         font-family: Verdana; position:absolute;text-align:center" class="title">¿Tu salud mental está <br> en <a style="color: #e29578">riesgo</a>? </h3>
       <img src="Imágenes/portada.png" width=100%>
@@ -51,18 +51,67 @@
             <button type="button" class="button">
                <span class="button__icon">
                <ion-icon name="home-sharp"></ion-icon>
-               <a href="#parallax">
+               <a href="#inicio">
                </a>
             </button>
             </script>
          </div>
-         <h1><p style="text-align: center; color: #EDF6F9; font-family: Verdana">¿Qué es la salud mental?</p></h1>
-         <h4><p style="text-align: center; color: white ; font-family: Verdana">"Es el estado de bienestar en el cual <br>la persona es consciente de sus propias capacidades,puede afrontar las tensiones normales de la vida".</p></h4>
+          <h1><p style="text-align: center; color: #EDF6F9; font-family: Verdana">¿Qué es la salud mental?</p></h1>
+          <h4><p style="text-align: center; color: white ; font-family: Verdana">"Es el estado de bienestar en el cual <br>la persona es consciente de sus propias capacidades,puede afrontar las tensiones normales de la vida".</p></h4>
     </div>
 
     
     <!--Div trastornos mentales frecuentes-->
     <div id="trastornos">
+      
+      <div class="products-container">
+    
+          <div class="product" data-name="p-1">
+            <img src="img_enf/Depresion.png" alt="">
+            <h3>Depresión</h3>
+            
+          </div>
+          <div class="product" data-name="p-2">
+            <img src="img_enf/Ansiedad.png" alt="">
+            <h3>Ansiedad</h3>
+            
+          </div>
+          <div class="product" data-name="p-3">
+            <img src="img_enf/TAlimentarios.png" alt="">
+            <h3>Trastornos Alimentarios</h3>
+            
+          </div>
+      </div>
+      
+      <div class="products-preview">
+
+        <div class="preview" data-target="p-1">
+          <i class="fas fa-times"></i>
+          <img src="img_enf/Depresion.png" alt="">
+          <h3>Depresión</h3>
+          
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+          
+        </div>
+        <div class="preview" data-target="p-2">
+          <i class="fas fa-times"></i>
+          <img src="img_enf/Ansiedad.png" alt="">
+          <h3>Ansiedad</h3>
+          
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+          
+        </div>
+        <div class="preview" data-target="p-3">
+          <i class="fas fa-times"></i>
+          <img src="img_enf/TAlimentarios.png" alt="">
+          <h3>Trastornos Alimentarios</h3>
+          
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+          
+        </div>
+      </div>
+
+      
     
     </div>
 

@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Causas</title>
+    <link rel="stylesheet" href="style_nutricion.css">
+</head>
+<body>
+    <section>
+        <div class="circle"></div>
+        
+        <div class="content">
+            <div class="textBox">
+                <h2><span>Nutricion</span></h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum, animi inventore ab ipsa eum similique qui sequi iure autem beatae repellat in natus totam commodi temporibus dolores tempore quis est!</p>
+            </div>
+            <div class="imgBox">
+                <img src="img_causas/nutricion.png" class="c">
+            </div>
+        </div>
+        <ul class="thumb">
+            <li><a href="redessociales.html"><img src="img_causas/redes_sociales.png" onclick="changeCircleColor('#83C5BE') " ></a></li>
+            <li><a href="actividad_fisica.html"><img src="img_causas/actividad_fisica.png" onclick=" changeCircleColor('#EDF6F9') " ></a></li>
+            <li><a href="nutricion.html"><img src="img_causas/nutricion.png" onclick=" changeCircleColor('#ffddd2') " ></a></li>
+        </ul>
+        
+    </section>
+
+    <script type="text/javascript">
+        function imgSlider(anything){
+            document.querySelector('.c').src = anything;
+        }
+        function changeCircleColor(color){
+            const circle = document.querySelector('.circle');
+            circle.style.background = color;
+        }
+
+    </script>
+</body>
+</html>

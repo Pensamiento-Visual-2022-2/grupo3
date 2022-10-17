@@ -12,6 +12,8 @@
 
 <body>
     <!--Cuerpo separado en divs para cada página-->
+
+    <!--Div portada-->
     <div id="parallax">
         <div class="head">
             <figure class="map">
@@ -35,7 +37,7 @@
     </div>
 
 
-
+    <!--Div definición salud mental-->
     <div>
         <h2>Qué es</h2>
         <div style="text-align: center;">
@@ -51,61 +53,48 @@
          <h1><p style="text-align: center; color: #EDF6F9; font-family: Verdana">¿Qué es la salud mental?</p></h1>
          <h4><p style="text-align: center; color: white ; font-family: Verdana">"Es el estado de bienestar en el cual <br>la persona es consciente de sus propias capacidades,puede afrontar las tensiones normales de la vida".</p></h4>
     </div>
+
+    <!--Div trastornos mentales frecuentes-->
     <div>   
          <h1><p style="text-align: center; color: #EDF6F9; font-family: Verdana"> Trastornos mentales más frecuentes </p> </h1>
-         
+         <!--Depresión-->
          <div class="ventana1" id="vent1" style="color: white ; font-family: Verdana">
-       
            <b>Depresión</b>
-           
-           <h5> Caracterizado por un bajo estado de ánimo y sentimientos de tristeza, asociados a alteraciones del comportamiento, del grado de actividad y del pensamiento. </h5>
-           
+           <h5> Caracterizado por un bajo estado de ánimo y sentimientos de tristeza, asociados a alteraciones del comportamiento, del grado de actividad y del pensamiento. </h5>  
          </div>
-       
+
+         <!--Ansiedad-->
          <div class="ventana2" id="vent2" style="color: white ; font-family: Verdana">
-       
            <b>Ansiedad</b>
-           
            <h5> Es un trastorno crónico caracterizado por sentimientos de miedo, temor e inquietud. Puede hacer que la persona sude, se sienta inquieta y tensa, y pueda llegar a tener palpitaciones. </h5>
-       
          </div>
-       
+
+         <!--Trastornos Alimentarios-->
          <div class="ventana3" id="vent3" style="color: white ; font-family: Verdana">
-       
            <b>Trastornos Alimentarios</b>
-           
            <h5> Se define por unos hábitos alimenticios anormales que afectan negativamente a la salud física y mental de la persona que los padece. </h5>
-           
          </div>
-       
+         
+         <!--Bipolaridad-->
          <div class="ventana4" id="vent4" style="color: white ; font-family: Verdana">
-       
            <b>Bipolaridad</b>
-       
            <h5>Provoca en la persona una serie de cambios de humor extremos en un periodo largo de tiempo, que van desde altos emocionales, hasta estados bajos o de depresión severa que se caracterizan por sentimientos de tristeza y desesperanza.</h5>
-       
          </div>
-       
+         
+         <!--Déficit de Atención-->
          <div class="ventana5" id="vent5" style="color: white ; font-family: Verdana">
-       
            <b>Déficit de Atención</b>
-       
            <h5>Es considerado como un trastorno de la conducta de que incluye síntomas como falta de atención, hiperactividad y comportamiento impulsivos. Las personas con TDAH también puede pueden padecer otras dificultades adicionales como ansiedad o trastornos del sueño.</h5>
-       
          </div>
-       
+
+         <!--Trastorno de personalidad-->
          <div class="ventana6" id="vent6" style="color: white ; font-family: Verdana">
-       
            <b>Trastorno de Personalidad</b>
-       
            <h5>Presentan patrones de conducta inadaptativa duraderos, de cognición y de experiencia interna, exhibidos en muchos contextos y que se apartan de los aceptados por el contexto social y la cultura del individuo.</h5>
-       
          </div>
          
-         
+         <!--Posición imágenes trastornos-->
          <section id="contenedor">
-       
-           
          <a href="javascript:abrir1()">
            <img class= "trastorno" src="img_enf/Depresion.png" title="Depresión" width=17%>
          </a>
@@ -134,21 +123,10 @@
        
          <br>
          <br>
-         
-         <a href="opciones.html">
-           <img src="Imágenes/causas.png" width=100%>
-         </a>
-         <a <h3 class="title"></h3>
-           <form>
-         <input type="button" value="Volver" onclick="history.back()">
-           </form> 
-         </a>
        
          </section>
-       
+         <!--Animación con js-->
          <script>
-           
-       
            function abrir1() {
              document.getElementById("vent1").style.display="block";
              document.getElementById("vent2").style.display="none";
@@ -167,7 +145,6 @@
              document.getElementById("vent6").style.display="none"
            }
          
-       
            function abrir3() {
              document.getElementById("vent3").style.display="block";
              document.getElementById("vent1").style.display="none";
@@ -202,18 +179,24 @@
              document.getElementById("vent3").style.display="none";
              document.getElementById("vent4").style.display="none";
              document.getElementById("vent5").style.display="none"
-           }
-           
-             
+           }  
          </script>
     </div>
 
-
+    <!--Div causas salud mental-->
     <div>
         <h2>Causas</h2>
+        <a href="opciones.html">
+          <img src="Imágenes/causas.png" width=100%>
+        </a>
+        <a <h3 class="title"></h3>
+          <form>
+        <input type="button" value="Volver" onclick="history.back()">
+          </form> 
+        </a>
     </div>
 
-
+    <!--Div recursos/ayuda-->
     <div>
         <h2>Recursos</h2>
     </div>

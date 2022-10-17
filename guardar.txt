@@ -1,0 +1,101 @@
+.ventana1{
+  background: #83C5BE;
+  position: static;
+  width: 36%;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 2px;
+  left: 58%;
+  padding: 10px;
+  min-height: 10px;
+  max-height: 27px;
+  top: 43%;
+  display: none
+}
+
+.ventana2{
+  background: #83C5BE;
+  position: static;
+  width: 36%;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 2px;
+  left: 58%;
+  padding: 10px;
+  min-height: 10px;
+  max-height: 27px;
+  top: 43%;
+  display: none
+}
+
+.ventana3{
+  background: #83C5BE;
+  position: static;
+  width: 36%;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 2px;
+  left: 58%;
+  padding: 10px;
+  min-height: 10px;
+  max-height: 27px;
+  top: 43%;
+  display: none
+}
+
+.ventana4{
+  background: #83C5BE;
+  position: static;
+  width: 36%;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 2px;
+  left: 58%;
+  padding: 10px;
+  min-height: 10px;
+  max-height: 27px;
+  top: 43%;
+  display: none
+}
+
+.ventana5{
+  background: #83C5BE;
+  position: static;
+  width: 36%;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 2px;
+  left: 58%;
+  padding: 10px;
+  min-height: 10px;
+  max-height: 27px;
+  top: 43%;
+  display: none
+}
+
+.ventana6{
+  background: #83C5BE;
+  position: static;
+  width: 36%;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 2px;
+  left: 58%;
+  padding: 10px;
+  min-height: 10px;
+  max-height: 27px;
+  top: 43%;
+  display: none
+}
+.trastorno:hover{
+  cursor:pointer;
+  transform: scale(1.1);
+  box-shadow: 4px 4px 8px 0 rgb(123 120 120);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}

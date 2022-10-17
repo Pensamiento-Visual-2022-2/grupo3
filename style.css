@@ -7,6 +7,75 @@
     box-sizing: border-box;
 }
 
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #000000;
+}
+
+/*Barra de navegación*/
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.6s;
+  padding: 40 px 100 px;
+  z-index: 100000 ;
+}
+
+header.sticky{
+  padding: 5px 100px;
+  background: #fff;
+
+}
+
+header.logo {
+  position: relative;
+  font-weight: 700;
+  color: #fff;
+  text-decoration: none;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: 0.6s;
+}
+
+header ul {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+header ul li{
+  position: relative;
+  list-style: none;
+
+
+}
+
+header ul li a {
+  position: relative;
+  margin: 0 15px;
+  text-decoration: none;
+  color: #fff;
+  letter-spacing: 2px;
+  font-weight: 500 px;
+  transition: 0.6s;
+
+}
+
+header.sticky .logo,
+header.sticky ul li a{
+  color:#000;
+
+}
+
 /*Definir tipografía*/
 div {
     display: flex;
@@ -48,7 +117,52 @@ div:nth-child(3) {
     height: 400 px;
     background-image: ;
     background-size: cover;
+
+    .btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 40px;
+      border: 2px solid #ffc299;
+      color: #fff;
+      text-decoration: none;
+      background: #f8b486;
+    }
+    
+    .btn:hover {
+      background: none;
+      
+    }
+    
+    .btn-home {
+      display: flex;
+    }
+    
+    .btn-home a {
+      margin: 0 10px;
+    }
+    .title {
+      margin-bottom: 40px;
+      font-size: 60px;
+      font-weight: 600;
+      text-transform: uppercase;
+      color: #fff;
+    }
+    .head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 60px;
+      background: #171717;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      z-index: 100;
+    }
+
 }
+
+
+
 
 /*Qué es salud mental*/
 div:nth-child(4){
@@ -71,3 +185,104 @@ div:nth-child(7){
     background-color: #000000;
 }
 
+/*Trastornos*/
+.ventana1{
+    background: #83C5BE;
+    position: absolute;
+    width: 36%;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 2px;
+    left: 58%;
+    padding: 10px;
+    min-height: 10px;
+    max-height: 27px;
+    top: 43%;
+    display: none
+  }
+  
+  .ventana2{
+    background: #83C5BE;
+    position: absolute;
+    width: 36%;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 2px;
+    left: 58%;
+    padding: 10px;
+    min-height: 10px;
+    max-height: 27px;
+    top: 43%;
+    display: none
+  }
+  
+  .ventana3{
+    background: #83C5BE;
+    position: absolute;
+    width: 36%;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 2px;
+    left: 58%;
+    padding: 10px;
+    min-height: 10px;
+    max-height: 27px;
+    top: 43%;
+    display: none
+  }
+  
+  .ventana4{
+    background: #83C5BE;
+    position: absolute;
+    width: 36%;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 2px;
+    left: 58%;
+    padding: 10px;
+    min-height: 10px;
+    max-height: 27px;
+    top: 43%;
+    display: none
+  }
+  
+  .ventana5{
+    background: #83C5BE;
+    position: absolute;
+    width: 36%;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 2px;
+    left: 58%;
+    padding: 10px;
+    min-height: 10px;
+    max-height: 27px;
+    top: 43%;
+    display: none
+  }
+  
+  .ventana6{
+    background: #83C5BE;
+    position: absolute;
+    width: 36%;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 2px;
+    left: 58%;
+    padding: 10px;
+    min-height: 10px;
+    max-height: 27px;
+    top: 43%;
+    display: none
+  }
+  .trastorno:hover{
+    cursor:pointer;
+    transform: scale(1.1);
+    box-shadow: 4px 4px 8px 0 rgb(123 120 120);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;

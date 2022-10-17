@@ -11,17 +11,35 @@
 </head>
 
 <body>
+  <!--Barra de navegación-->
+  <header>
+    <a href="#" class="logo"> Salud Mental</a>
+    <ul>
+      <li><a href="#">¿Qué es?</a></li>
+      <li><a href="#">Tratornos</a></li>
+      <li><a href="#">Causas</a></li>
+      <li><a href="#">Recursos</a></li>
+    </ul>
+  </header>
+  <section class="banner"></section>
+  <script type="text/javascript">
+    window.addEventListener("scroll", function(){
+      var header = document.querySelector("header");
+      header.classList.toggle("sticky", window.scrollY > 0);
+    })
+  </script>
     <!--Cuerpo separado en divs para cada página-->
-    <div id="parallax">
-        <header class="content header">
-            <h3 style="
-            font-family: Verdana; position:absolute;text-align:center" class="title">¿Tu salud mental está <br> en <a style="color: #e29578">riesgo</a>? </h3>
-            
-            <div class="btn-home" style="position: absolute;top: 65%;color: white ; font-family: Verdana">
-                <a href="que_es_salud_mental.html" class="btn">Saber más</a>
-            </div>
-        </header>
+    
+    <div id="parallax"></div>
 
+
+    <div>
+        <h3 style="
+        font-family: Verdana; position:absolute;text-align:center" class="title">¿Tu salud mental está <br> en <a style="color: #e29578">riesgo</a>? </h3>
+        
+        <div class="btn-home" style="position: absolute;top: 65%;color: white ; font-family: Verdana">
+            <a href="que_es_salud_mental.html" class="btn">Saber más</a>
+        </div>
     </div>
 
 
@@ -113,6 +131,7 @@
          <br>
        
          </section>
+
          <!--Animación con js-->
          <script>
            function abrir1() {
@@ -171,20 +190,18 @@
          </script>
     </div>
 
-
+    <!--Conoce más-->>
     <div>
         <h2>Causas</h2>
-        <a href="opciones.html">
           <img src="Imágenes/causas.png" width=100%>
         </a>
-        <a <h3 class="title"></h3>
-          <form>
-        <input type="button" value="Volver" onclick="history.back()">
-          </form> 
-        </a>
+    </div>
+    <!--Causas contenido-->>
+    <div>
     </div>
 
 
+    <!--Recursos-->
     <div>
         <h2>Recursos</h2>
     </div>

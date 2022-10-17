@@ -26,7 +26,7 @@ header {
 }
 
 header.sticky{
-  padding: 5px 100px;
+  padding: 10px 200px;
   background: #fff;
 
 }
@@ -167,20 +167,25 @@ div:nth-child(5){
   background-color: #000000;
 }
 
-/*Causas*/
+/*Causas1*/
 div:nth-child(6){
   background-color: #000000;
+  background-image:url("fondo_causas1.png");
 }
+/*Causas2*/
+div:nth-child(7){
+    background-color: #000000;
+  }
 
 /*Recursos de utilidad*/
-div:nth-child(7){
+div:nth-child(8){
   background-color: #000000;
 }
 
 /*Trastornos*/
 .ventana1{
   background: #83C5BE;
-  position: absolute;
+  position: static;
   width: 36%;
   color: white;
   font-size: 20px;
@@ -196,7 +201,7 @@ div:nth-child(7){
 
 .ventana2{
   background: #83C5BE;
-  position: absolute;
+  position: static;
   width: 36%;
   color: white;
   font-size: 20px;
@@ -212,7 +217,7 @@ div:nth-child(7){
 
 .ventana3{
   background: #83C5BE;
-  position: absolute;
+  position: static;
   width: 36%;
   color: white;
   font-size: 20px;
@@ -228,7 +233,7 @@ div:nth-child(7){
 
 .ventana4{
   background: #83C5BE;
-  position: absolute;
+  position: static;
   width: 36%;
   color: white;
   font-size: 20px;
@@ -244,7 +249,7 @@ div:nth-child(7){
 
 .ventana5{
   background: #83C5BE;
-  position: absolute;
+  position: static;
   width: 36%;
   color: white;
   font-size: 20px;
@@ -260,7 +265,7 @@ div:nth-child(7){
 
 .ventana6{
   background: #83C5BE;
-  position: absolute;
+  position: static;
   width: 36%;
   color: white;
   font-size: 20px;

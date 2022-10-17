@@ -183,25 +183,19 @@ div:nth-child(8){
   background-color: #000000;
 }
 
+/*Trastornos*/
 .trastornos{
   max-width: 1200 px;
   margin: 0 auto;
   padding: 3rem 2rem;
 }
 
-.trastornos .title{
-  font-size: 3.5 rem;
-  color: #444;
-  margin-bottom: 3rem;
-  text-transform: none;
-}
 .trastornos.products-container{
 display: grid;
-grid-template-columns: repeat(auto-fit, minmax(30 rem, 1 fr));
+grid-template-columns: repeat(auto-fit, minmax(30 rem, 1fr));
 gap: 2 rem;
 }
 
-/*Trastornos*/
 .trastornos.products-container .product{
   text-align: center;
   padding:3rem 2rem;

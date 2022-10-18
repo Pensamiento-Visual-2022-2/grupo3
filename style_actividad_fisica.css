@@ -163,3 +163,23 @@ header ul li a{
     display: flex;
     align-items: center;
 }
+
+.boton1{
+    display: inline-block;
+    background-color: #3f3f3f;
+    color:rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 5px;
+    margin: 25px ;
+    padding: 25px 25px;
+    cursor: pointer;
+     
+  }
+  
+  .boton1:hover {
+    background-color: transparent;
+    border: 2px solid #E29578;
+    color: #E29578;
+  }

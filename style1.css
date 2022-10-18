@@ -183,8 +183,8 @@ div:nth-child(8){
 
 .trastornos.products-container{
 display: grid;
-grid-template-columns: repeat(auto-fit, minmax(30 rem, 1fr));
-gap: 2 rem;
+grid-template-rows: auto;
+grid-template-columns: auto;
 }
 
 .trastornos.products-container .product{

@@ -150,3 +150,24 @@ header ul li a{
     background: #ffddd2;
     clip-path: circle(600px at right 800px);
 }
+
+
+.boton2{
+    display: inline-block;
+    background-color: #3f3f3f;
+    color:rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 5px;
+    margin: 25px ;
+    padding: 25px 25px;
+    cursor: pointer;
+     
+  }
+  
+  .boton2:hover{
+    background-color: transparent;
+    border: 2px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+  }

@@ -350,3 +350,17 @@ grid-template-columns: auto;
 
 }
 
+
+
+.page-footer.font-small.blue.pt-4{
+  background-color:lightgrey;
+}
+
+.col-md-6{
+  margin-left: 60px;
+}
+
+
+.text-uppercase{
+  font-size: 14px;
+}

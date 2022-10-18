@@ -319,22 +319,31 @@ grid-template-columns: auto;
   cursor: pointer;
    
 }
-.boton {
+
+.tras:hover {
+  background-color: transparent;
+  border: 2px solid #E29578;
+  color: #E29578;
+}
+
+.caubot {
   position: absolute;
   top: 255%;
   left: 27%;
-  display: block;
-  width: 300px;
-  font-weight:700;
-  font-size: 55px;
-  border-radius: 10px;
-  margin: 10px 104px;
-  padding: 20px 260px;
+  display: inline-block;
   background-color: #E29578;
-  color: white;
+  color:rgb(255, 255, 255);
+  text-transform: uppercase;
   text-decoration: none;
+  font-weight: 700;
+  font-size: 30px;
+  border-radius: 5px;
+  margin: 25px ;
+  padding: 45px 45px;
+  cursor: pointer;
 }
-.boton:hover {
+
+.caubot:hover {
   background-color: transparent;
   border: 2px solid #E29578;
   color: #E29578;

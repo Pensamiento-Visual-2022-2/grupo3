@@ -353,7 +353,12 @@ grid-template-columns: auto;
 
 
 .page-footer.font-small.blue.pt-4{
+   
   background-color:lightgrey;
+  background-position: center bottom;
+	background-size: 100% auto;
+	background-repeat: repeat-x;
+	min-height: 50vh;
 }
 
 .col-md-6{

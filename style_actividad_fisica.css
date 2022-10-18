@@ -67,6 +67,17 @@ header ul li a{
     position: relative;
     max-width: 600px;
 }
+
+#my_dataviz {
+    position: absolute;
+    display: block;
+    top: 20px;
+    left: 20px;
+    background: blue;
+    margin: 5px;
+    flex: 2;
+  }
+
 .textBox h2{
     color: #333;
     font-size: 4em;
@@ -97,7 +108,7 @@ header ul li a{
     display: flex;
     justify-content: flex-end;
     padding-right: 50px;
-    margin-top: 50px;
+    margin-top: 5px;
 }
 .imgBox img{
     max-width: 340px;
@@ -149,4 +160,6 @@ header ul li a{
     height: 100%;
     background: #EDF6F9;
     clip-path: circle(600px at right 800px);
+    display: flex;
+    align-items: center;
 }

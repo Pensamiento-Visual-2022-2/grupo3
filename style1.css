@@ -78,6 +78,8 @@ header.sticky ul li a{
 }
 
 
+
+
 /*Comportamiento secciones*/
 div {
   display: flex;
@@ -89,24 +91,9 @@ div {
   height: 100vh;
 }
 
-
-
-/*Portada*/
-div:nth-child(1) {
-  position: absolute;
-  width: 1190 px;
-  height: 915 px;
-  left: 392 px;
-  top: 0 px;
-  background: foto_principal_cabeza.png;
-  background-size: cover;
-
-}
-
 /*Portada*/
 div:nth-child(2) {
   background-color: #000000;
-  background-image: ;
   background-size: cover;
 }
 

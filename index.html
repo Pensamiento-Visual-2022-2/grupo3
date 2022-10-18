@@ -8,12 +8,17 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="style1.css">
     <script src="j.js" defer></script>
+    <link rel="stylesheet" href="chat.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <title>Salud Mental</title>
 
 </head>
 
 <body>
+
+
   <!--Barra de navegación-->
   <header>
     <a href="#inicio" class="logo"> Salud Mental</a>
@@ -38,9 +43,7 @@
     <div id="inicio">
       <h3 style="
         font-family: Verdana; position:absolute;text-align:center" class="title">¿Tu salud mental está <br> en <a style="color: #e29578">riesgo</a>? </h3>
-      <img src="Imágenes/portada.png" width=100%>
-      <div class="btn-home" style="position: absolute;top: 65%;color: white ; font-family: Verdana">
-        <a href="#que_es" class="btn">Saber más</a>
+      <div class="Portada"><img src="portada.png" alt="Portada" height="100%" width="100%">
       </div>
     </div>
 
@@ -172,8 +175,56 @@
         <h2>Recursos</h2>
     </div>
 
+    <!--CHATBOT-->
+    <div class="chat-bar-collapsible">
+      <button id="chat-button" type="button" class="collapsible">¿Necesitas ayuda?
+          <i id="chat-icon" style="color: #fff;" class="fa fa-fw fa-comments-o"></i>
+      </button>
+  
+      <div class="content">
+          <div class="full-chat-block">
+              <!-- Message Container -->
+              <div class="outer-container">
+                  <div class="chat-container">
+                      <!-- Messages -->
+                      <div id="chatbox">
+                          <h5 id="chat-timestamp"></h5>
+                          <p id="botStarterMessage" class="botText"><span>Cargando...</span></p>
+                      </div>
+  
+                      <!-- User input box -->
+                      <div class="chat-bar-input-block">
+                          <div id="userInput">
+                              <input id="textInput" class="input-box" type="text" name="msg"
+                                  placeholder="Presione 'Enter' para enviar un mensaje">
+                              <p></p>
+                          </div>
+  
+                          <div class="chat-bar-icons">
+                              <i id="chat-icon" style="color: crimson;" class="fa fa-fw fa-heart"
+                                  onclick="heartButton()"></i>
+                              <i id="chat-icon" style="color: #333;" class="fa fa-fw fa-send"
+                                  onclick="sendButton()"></i>
+                          </div>
+                      </div>
+  
+                      <div id="chat-bar-bottom">
+                          <p></p>
+                      </div>
+  
+                  </div>
+              </div>
+  
+          </div>
+      </div>
+  
+  </div>
     
-    <script src="main.js"></script>
 </body>
+<script src="main.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="responses.js"></script>
+<script src="chat.js"></script>
+
 
 </html>
